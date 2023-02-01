@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.button.is-primary {
+  background-color:orange ;
+  padding-bottom:5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button.is-primary:hover {
+  background-color:rgb(243, 242, 240);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  font-size: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#inner-large-banner {
+  height: 20%;
+  width: 50%;
+  background-size: cover;
+  background-position: 25% 25%;
 }
 
-.App-link {
-  color: #61dafb;
+.product-title {
+  font-size:2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+  margin-right: 25px;
+  text-decoration:None;
+}
+b{
+  height:10px;
+  width:30px;
 }
